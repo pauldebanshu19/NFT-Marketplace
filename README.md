@@ -1,3 +1,56 @@
+# NFT Marketplace
+
+This project is a decentralized NFT marketplace built with Next.js, React, and thirdweb. It allows users to mint, list, buy, and sell NFTs on the blockchain.
+
+## Prerequisites
+
+- Node.js (v16 or higher recommended)
+- npm or yarn
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+   cd nft-marketpalce
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+## Important Packages
+
+- `@thirdweb-dev/react` — React hooks and components for blockchain interaction
+- `@thirdweb-dev/sdk` — SDK for blockchain operations
+- `ethers` — Ethereum library
+
+## Development
+
+Start the development server:
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the app.
+
+## Troubleshooting
+
+If you see errors like `Cannot find module '@thirdweb-dev/react' or its corresponding type declarations`, try:
+- Running `npm install` again
+- Restarting your IDE and development server
+- Ensuring your `node_modules` folder is not excluded in `tsconfig.json`
+
+## Project Structure
+
+- `src/components/` — React components
+- `src/util/` — Utility functions (e.g., contract helpers)
+- `src/pages/` — Next.js pages
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
